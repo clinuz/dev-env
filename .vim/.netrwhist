@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/cole/.eclim'
-let g:netrw_dirhist_2='/Users/cole/.vim'
-let g:netrw_dirhist_3='/Users/cole/Devel/xtuple/git/clinuz/CD.TableView/views'
-let g:netrw_dirhist_4='/Users/cole/Devel/xtuple/git/clinuz/colebooks/client/frameworks/xt/frameworks/foundation'
-let g:netrw_dirhist_5='/Users/cole/.vim'
