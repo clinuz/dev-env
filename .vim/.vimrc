@@ -1,6 +1,6 @@
 set background=dark
-" colorscheme ir_black
-colorscheme nazca
+colorscheme ir_black
+" colorscheme nazca
 set nocompatible
 " set autoindent
 set smartindent
@@ -24,19 +24,3 @@ autocmd BufEnter Buildfile set filetype=ruby
 
 " map nerdtree for convenience
 map <F2> :NERDTreeToggle<cr>
-
-" help with sessioning
-nmap <silent> SQ <ESC>:NERDTreeClose<cr>:mksession! ~/.vimsession<cr>:wqa<cr>
-
-" function to restore session if no args provided
-function! RestoreSession()
-  if argc() == 0 " no arguments provided
-    if filereadable($HOME . '/.vimsession')
-      execute 'source ~/.vimsession'
-    end
-  end
-endfunction
-
-" force the function to be run on every load
-autocmd VimEnter * call RestoreSession()
-autocmd VimEnter * NERDTreeFind

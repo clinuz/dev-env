@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/cole/Devel/xtuple/web/git/clinuz/xt-node/lib/node_modules/metasql'
+let g:netrw_dirhist_2='/Users/cole/Devel/xtuple/git/clinuz/client/frameworks/xm/packages/xtuple/opportunity'
+let g:netrw_dirhist_3='/Users/cole/Devel/xtuple/git/clinuz/client/apps/postbooks/states/application'
