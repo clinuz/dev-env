@@ -24,3 +24,5 @@ autocmd BufEnter Buildfile set filetype=ruby
 
 " map nerdtree for convenience
 map <F2> :NERDTreeToggle<cr>
+
+filetype plugin on
